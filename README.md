@@ -1,6 +1,6 @@
-# bogeyman
-#Primeira etapa
+Bogeyman
 
-# sudo apt install pip
+Para rodar o script eh necessario instalar o pip e o pycypto
 
-# sudo pip install pycrypto
+sudo apt install pip
+sudo pip install pycrypto
