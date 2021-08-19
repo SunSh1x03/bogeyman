@@ -1,6 +1,6 @@
 Bogeyman
 
-Para rodar o script eh necessario instalar o pip e o pycrypto
+Para rodar o encrypt.py é necessário instalar o pip e o pycrypto
 
 sudo apt install pip
 sudo pip install pycrypto
