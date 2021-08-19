@@ -4,8 +4,14 @@ import os
 import sys
 
 def encrypt():
+
+	#Correcao:1 -->	Esta chave precisa ser random
+
         key = 'teste123@'
         cipher = XOR.new(key)
+
+	#Correcao:2 -->	Preciso encryptar arquivos
+
         pathfile = '/download/controlado'
         openfile = open(pathfile,'rb')
         readfile = openfile.read()
