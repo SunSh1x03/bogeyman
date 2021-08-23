@@ -7,7 +7,7 @@ def encrypt():
 
 	#Correcao:1 -->	Esta chave precisa ser random
 
-        key = 'teste123@'
+        key = random.random()
         cipher = XOR.new(key)
 
 	#Correcao:2 -->	Preciso encryptar arquivos
