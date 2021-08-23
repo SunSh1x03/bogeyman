@@ -5,7 +5,7 @@ import sys
 
 def encrypt():
 
-	#Correcao:1 -->	Esta chave precisa ser random
+	#Correcao:1 -->	Esta chave precisa ser random, feito
 
         key = random.random()
         cipher = XOR.new(key)
