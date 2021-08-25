@@ -12,7 +12,7 @@ def encrypt():
 
 	#Correcao:2 -->	Preciso melhorar a forma de encryptar arquivos
 	
-        pathfile = '/download/controlado'
+        pathfile = '/download/teste.txt'
        
         openfile = open(pathfile,'rb')
         readfile = openfile.read()
