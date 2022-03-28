@@ -5,9 +5,7 @@ import sys
 
 def encrypt():
 
-	#Correcao:1 -->	Esta chave precisa ser random, feito
-
-        key = os.urandom(32)
+	key = os.urandom(32)
         cipher = XOR.new(key)
 
 	#Correcao:2 -->	Preciso melhorar a forma de encryptar arquivos
