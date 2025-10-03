@@ -46,3 +46,5 @@ python decyrpt.py caminho/para/arquivo.txt
   in-place.
 - Mantenha a chave (`.key`) em local seguro. Sem ela não será possível recuperar
   o conteúdo original.
+
+![batutinhas](https://user-images.githubusercontent.com/6726442/130009612-d82ad817-470d-4667-8b9c-b31aa8cac5f2.gif)
